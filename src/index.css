@@ -5,10 +5,34 @@
 
 body {
   background-color: #040406;
-  color: #faf9f6;
+  color: #e2e2e2;
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.yellow_text {
+  background: linear-gradient(to bottom, #ffc800, #ffdb58);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background-color: #ffdb58; /* Change to your desired color */
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  opacity: 0.85;
+}
+
+.simplebar-track.simplebar-vertical {
+  background: #ffc8001a; /* Optional: change track background */
+  border-radius: 100px;
+}
+
+::selection {
+  background: #ffdb58ad;
 }

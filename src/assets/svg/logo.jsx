@@ -13,7 +13,7 @@ export default function Logo() {
   };
 
   const svgM = {
-    hidden: { rotate: -90, x: 50 },
+    hidden: { rotate: -90, x: 35 },
     visible: {
       rotate: 0,
       x: 0,

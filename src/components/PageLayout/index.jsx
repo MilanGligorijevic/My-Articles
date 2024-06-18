@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
-import Content from "../Content";
 
 function PageLayout({ children }) {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="flex">
+      <div className="flex px-[10%]">
         <Sidebar />
         {children}
       </div>
-    </div>
+    </>
   );
 }
 
