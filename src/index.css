@@ -21,11 +21,11 @@ body {
 }
 
 .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
-  background-color: #ffdb58; /* Change to your desired color */
+  background-color: #ffc800; /* Change to your desired color */
 }
 
 .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .simplebar-track.simplebar-vertical {

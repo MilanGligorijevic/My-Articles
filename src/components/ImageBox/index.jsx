@@ -2,8 +2,12 @@ import React from "react";
 
 function ImageBox({ src, alt }) {
   return (
-    <div>
-      <img src={src} alt={alt} className="h-96 rounded-lg object-contain" />
+    <div className="w-full mb-3">
+      <img
+        src={src}
+        alt={alt}
+        className="rounded-lg w-full h-full object-cover"
+      />
     </div>
   );
 }

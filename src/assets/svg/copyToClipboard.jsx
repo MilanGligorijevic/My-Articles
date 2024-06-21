@@ -1,8 +1,8 @@
 export default function CopyToClipboard() {
   return (
     <svg
-      width="28px"
-      height="28px"
+      width="30px"
+      height="30px"
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ export default function CopyToClipboard() {
       xmlnsSketch="http://www.bohemiancoding.com/sketch/ns"
       fill="#faf9f6"
       stroke="#faf9f6"
-      className="p-1 hover:bg-custom-grey rounded-lg"
+      className="p-1.5 hover:bg-custom-grey rounded-lg"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
