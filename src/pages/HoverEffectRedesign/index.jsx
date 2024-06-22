@@ -4,7 +4,6 @@ import ArticleInfo from "../../components/ArticleInfo";
 import CodeContainer from "../../components/CodeContainer";
 import img1 from "../../assets/img/HoverEffectRedesign1.PNG";
 import img2 from "../../assets/img/HoverEffectRedesign2.PNG";
-import img3 from "../../assets/img/HoverEffectRedesign3.PNG";
 import video1 from "../../assets/video/HoverEffectRedesign4.mp4";
 import ImageBox from "../../components/ImageBox";
 import VideoBox from "../../components/VideoBox";
@@ -21,7 +20,6 @@ function HoverEffectRedesign() {
           shortDescription={
             "Hover effect changes for better UX/UI in Framer Motion"
           }
-          fullDescription={""}
         />
         <div className="flex gap-5 mb-6">
           <Button
@@ -36,10 +34,10 @@ function HoverEffectRedesign() {
         <h1 className="text-3xl text-custom-white">Description</h1>
         <p>
           Small redesign of one of the sections from my portfolio website. Main
-          focus is on making UX/UI a bit better and more understandable. The
-          initial design of the section is shown on the picture below. White
+          focus was on making UX/UI a bit better and more understandable. White
           boxes represent the technology with its logo.
         </p>
+        <h1 className="text-3xl text-custom-white">Initial design</h1>
         <ImageBox src={img1} alt="skills section initial design" />
         <h1 className="text-3xl text-custom-white">Initial hover effect</h1>
         <p>
@@ -52,6 +50,7 @@ function HoverEffectRedesign() {
           any information about the technology it represented nor about its
           usage.
         </p>
+        <h1 className="text-3xl text-custom-white">Redesign idea</h1>
         <HighlightField
           children={
             <>
@@ -65,7 +64,6 @@ function HoverEffectRedesign() {
             </>
           }
         />
-        <h1 className="text-3xl text-custom-white">Redesign idea</h1>
         <p>
           Initial idea was to make a design where the hovered box would pop-up
           to the left and all other boxes would move to the right and the user

@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import HomePage from "./pages/HomePage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Example2 from "./pages/Example2";
 import Introduction from "./pages/Introduction";
 import HoverEffectRedesign from "./pages/HoverEffectRedesign";
+import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
 
 const router = createBrowserRouter([
   {
@@ -19,8 +18,8 @@ const router = createBrowserRouter([
         element: <HoverEffectRedesign />,
       },
       {
-        path: "/example2",
-        element: <Example2 />,
+        path: "/portfolioSectionRedesign",
+        element: <PortfolioSectionRedesign />,
       },
     ],
   },
