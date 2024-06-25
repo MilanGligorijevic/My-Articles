@@ -8,7 +8,7 @@ module.exports = {
         "custom-yellow2": "#ffdb58",
         "custom-black": "#222222",
         "custom-full-black": "#040406",
-        "custom-grey": "#393E46",
+        "custom-grey": "#393E46a9",
         "custom-white": "#faf9f6",
       },
     },

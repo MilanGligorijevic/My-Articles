@@ -27,7 +27,9 @@ function HoverEffectRedesign() {
             text={"Live Demo"}
           />
           <Button
-            link={"https://github.com/MilanGligorijevic/MG-React-Portfolio"}
+            link={
+              "https://github.com/MilanGligorijevic/MG-React-Portfolio/tree/main/src/views/components/SkillBox"
+            }
             text={"Source Code"}
           />
         </div>

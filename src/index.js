@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Introduction from "./pages/Introduction";
 import HoverEffectRedesign from "./pages/HoverEffectRedesign";
 import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
+import DropdownMenu from "./pages/DropdownMenu";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolioSectionRedesign",
         element: <PortfolioSectionRedesign />,
+      },
+      {
+        path: "/dropdownMenu",
+        element: <DropdownMenu />,
       },
     ],
   },

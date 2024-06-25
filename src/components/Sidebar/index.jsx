@@ -67,6 +67,21 @@ function Sidebar() {
               </motion.h2>
             </Link>
           </div>
+          <div className="pl-2 text-xl">
+            <Link to="/dropdownMenu">
+              <motion.h2
+                className={`${
+                  pathname === "/dropdownMenu"
+                    ? "text-custom-yellow1"
+                    : "text-custom-white"
+                }`}
+                variants={textVariants}
+                whileHover="hover"
+              >
+                Dropdown menu
+              </motion.h2>
+            </Link>
+          </div>
         </div>
       </div>
     </SimpleBar>
