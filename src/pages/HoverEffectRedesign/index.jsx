@@ -162,7 +162,7 @@ function SkillBox(props) {
 
   return (
     <motion.div
-      className={skill_box \${props.class}}
+      className={'skill_box \${props.class}'}
       variants={skillVariants}
       initial="initial"
       whileHover="hover"

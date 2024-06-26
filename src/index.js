@@ -6,6 +6,7 @@ import Introduction from "./pages/Introduction";
 import HoverEffectRedesign from "./pages/HoverEffectRedesign";
 import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
 import DropdownMenu from "./pages/DropdownMenu";
+import LandingPageDesign from "./pages/Landing page design";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/dropdownMenu",
         element: <DropdownMenu />,
+      },
+      {
+        path: "/landingPageDesign",
+        element: <LandingPageDesign />,
       },
     ],
   },

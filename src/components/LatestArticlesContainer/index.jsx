@@ -3,6 +3,7 @@ import ArticlePreview from "../ArticlePreview";
 import article1Video from "../../assets/video/HoverEffectRedesign4.mp4";
 import article2Video from "../../assets/video/PortfolioSectionRedesign4.mp4";
 import article3Video from "../../assets/video/DropdownMenu5.mp4";
+import article4Video from "../../assets/video/LandingPageDesign4.mp4";
 
 function LatestArticlesContainer() {
   return (
@@ -35,6 +36,15 @@ function LatestArticlesContainer() {
           }
           articleLink={"/hoverEffectRedesign"}
           tags={"hover"}
+        />
+        <ArticlePreview
+          img={article4Video}
+          title={"Landing page design"}
+          description={
+            "Hungry app is an application made for making reservations in local restaurants. I started making this app from a single restaurant page so I ended up needing a landing/home page for my application."
+          }
+          articleLink={"/landingPageDesign"}
+          tags={"design"}
         />
       </div>
     </div>
