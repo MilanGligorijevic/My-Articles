@@ -15,13 +15,13 @@ function ArticlePreview({ img, title, description, articleLink, tags }) {
   };
 
   return (
-    <div
-      className="w-96"
-      onMouseOver={handleMouseOver}
-      onMouseOut={handleMouseOut}
-    >
-      <div className="h-60 rounded-lg">
-        <Link to={articleLink}>
+    <div className="w-96 xl:w-80">
+      <div className="h-60 rounded-lg xl:h-56">
+        <Link
+          to={articleLink}
+          onMouseOver={handleMouseOver}
+          onMouseOut={handleMouseOut}
+        >
           <video
             ref={videoRef}
             loop
@@ -34,7 +34,12 @@ function ArticlePreview({ img, title, description, articleLink, tags }) {
           </video>
         </Link>
       </div>
-      <TagBox text={tags} />
+      <div className="flex gap-2">
+        {tags.map((tag) => {
+          return <TagBox text={tag} />;
+        })}
+      </div>
+
       <Link to={articleLink}>
         <h3 className="text-xl text-custom-white mb-1">{title}</h3>
       </Link>

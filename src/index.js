@@ -7,6 +7,7 @@ import HoverEffectRedesign from "./pages/HoverEffectRedesign";
 import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
 import DropdownMenu from "./pages/DropdownMenu";
 import LandingPageDesign from "./pages/Landing page design";
+import ExploreAllArticles from "./pages/ExploreAllArticles";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/landingPageDesign",
         element: <LandingPageDesign />,
+      },
+      {
+        path: "/exploreAllArticles",
+        element: <ExploreAllArticles />,
       },
     ],
   },

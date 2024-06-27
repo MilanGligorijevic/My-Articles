@@ -21,7 +21,7 @@ function Sidebar() {
       forceVisible="y"
       autoHide={false}
       style={{ height: "80vh", position: "sticky", top: 85 }}
-      className="min-w-[17rem] mr-10"
+      className="min-w-[17rem] mr-10 lg:min-w-[14rem] ms:hidden"
     >
       <div className="flex flex-col gap-1">
         <Link to="/">

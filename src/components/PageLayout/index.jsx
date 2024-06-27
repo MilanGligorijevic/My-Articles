@@ -6,7 +6,7 @@ function PageLayout({ children }) {
   return (
     <>
       <Navbar />
-      <div className="flex pl-[10%] pr-[23%] mb-14">
+      <div className="flex pl-[10%] pr-[23%] mb-14 2xl:pr-[13%] sm:pl-[8%]">
         <Sidebar />
         {children}
       </div>
