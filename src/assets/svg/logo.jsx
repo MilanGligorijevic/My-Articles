@@ -37,7 +37,7 @@ export default function Logo() {
 
   return (
     <Link to="/">
-      <div className="flex cursor-pointer">
+      <div className="flex cursor-pointer sm:w-[85%]">
         {showAnimation ? (
           <>
             <motion.svg

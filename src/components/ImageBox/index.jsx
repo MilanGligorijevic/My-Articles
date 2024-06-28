@@ -2,7 +2,7 @@ import React from "react";
 
 function ImageBox({ src, alt }) {
   return (
-    <div className="w-full mb-3">
+    <div className="w-full mb-3 sm:h-56">
       <img
         src={src}
         alt={alt}

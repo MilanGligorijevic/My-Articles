@@ -31,7 +31,7 @@ function Navbar() {
   }
 
   return (
-    <div className="h-16 flex justify-between items-center px-[10%] mb-20 sticky top-0 bg-custom-full-black z-10 sm:px-[8%]">
+    <div className="h-16 flex justify-between items-center px-[10%] mb-20 sticky top-0 bg-custom-full-black z-10 sm:px-[8%] sm:mb-10">
       <Logo />
       <div onClick={handleToggle} ref={menuRef}>
         <MenuButton toggleMenu={isToggled} />

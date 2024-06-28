@@ -28,14 +28,16 @@ function DropdownMenu() {
             text={"Source Code"}
           />
         </div>
-        <h1 className="text-3xl text-custom-white">Description</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">Description</h1>
         <p>
           I needed a dropdown menu button and animation for my Articles website.
           Since the design of the website is pretty simple yet stylish I needed
           something in that manner. I decided to go for a simple dropdown
           animation with a little spin.
         </p>
-        <h1 className="text-3xl text-custom-white">Initial design</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Initial design
+        </h1>
         <VideoBox videoFile={video1} />
         <p>
           Initial design was pretty straight forward since I have been using
@@ -181,7 +183,7 @@ export default MenuButton;
           componentName={"MenuButton.jsx"}
           showMoreButton={true}
         />
-        <h1 className="text-3xl text-custom-white">
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
           Dropdown menu design and implementation
         </h1>
         <p>
@@ -246,7 +248,9 @@ export default MenuButton;
             </>
           }
         />
-        <h1 className="text-3xl text-custom-white mt-2">Component code</h1>
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
+          Component code
+        </h1>
         <CodeContainer
           code={`import React, { useEffect } from "react";
 import { motion, useAnimate } from "framer-motion";

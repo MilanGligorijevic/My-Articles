@@ -33,15 +33,19 @@ function HoverEffectRedesign() {
             text={"Source Code"}
           />
         </div>
-        <h1 className="text-3xl text-custom-white">Description</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">Description</h1>
         <p>
           Small redesign of one of the sections from my portfolio website. Main
           focus was on making UX/UI a bit better and more understandable. White
           boxes represent the technology with its logo.
         </p>
-        <h1 className="text-3xl text-custom-white">Initial design</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Initial design
+        </h1>
         <ImageBox src={img1} alt="skills section initial design" />
-        <h1 className="text-3xl text-custom-white">Initial hover effect</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Initial hover effect
+        </h1>
         <p>
           Hover effect was pretty simple. It made hovered box pop-up by changing
           it's size and z-index.
@@ -52,7 +56,9 @@ function HoverEffectRedesign() {
           any information about the technology it represented nor about its
           usage.
         </p>
-        <h1 className="text-3xl text-custom-white">Redesign idea</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Redesign idea
+        </h1>
         <HighlightField
           children={
             <>
@@ -71,11 +77,11 @@ function HoverEffectRedesign() {
           to the left and all other boxes would move to the right and the user
           would get a short explanation about the technology used.
         </p>
-        <p>I found some example that resembled my idea:</p>
+        <p>I found some example that resembled my idea.</p>
         <HighlightField
           children={
             <div className="flex gap-2">
-              <Arrow />{" "}
+              <Arrow /> Link to the example
               https://codesandbox.io/p/sandbox/heuristic-wozniak-2z01b?file=%2Fsrc%2Ftest.js%3A28%2C3
             </div>
           }
@@ -85,7 +91,7 @@ function HoverEffectRedesign() {
           complex to make and maintain. I opted for a bit simpler option to
           resize icon and display some description on hover.
         </p>
-        <h1 className="text-3xl text-custom-white mt-2">
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
           Final design and implementation
         </h1>
         <p>
@@ -111,7 +117,9 @@ function HoverEffectRedesign() {
           portfolio in a design sense.
         </p>
         <VideoBox videoFile={video1} />
-        <h1 className="text-3xl text-custom-white mt-2">Component code</h1>
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
+          Component code
+        </h1>
         <CodeContainer
           code={`import React from "react";
 import "./css/style.scss";

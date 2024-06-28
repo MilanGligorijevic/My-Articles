@@ -34,14 +34,16 @@ function LandingPageDesign() {
             text={"Source Code"}
           />
         </div>
-        <h1 className="text-3xl text-custom-white">Description</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">Description</h1>
         <p>
           Hungry app is an application made for making reservations in local
           restaurants and bars. I started making this app from a single
           restaurant page which was my main selling point so I ended up needing
           a landing/home page for my application.
         </p>
-        <h1 className="text-3xl text-custom-white">Initial design</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Initial design
+        </h1>
         <p>
           Initial idea was to have a few components on the page that would serve
           their purpose.
@@ -67,7 +69,7 @@ function LandingPageDesign() {
             </>
           }
         />
-        <h1 className="text-3xl text-custom-white">
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
           Popular food categories component
         </h1>
         <p>
@@ -159,7 +161,7 @@ export default FoodCategory`}
           componentName={"FoodCategory.tsx"}
           showMoreButton={true}
         />
-        <h1 className="text-3xl text-custom-white">
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
           Popular restaurants component
         </h1>
         <p>
@@ -233,7 +235,7 @@ export default RestaurantPreview`}
           some future development they could be listed by some advanced
           algorithm for rating restaurants by user reviews.
         </p>
-        <h1 className="text-3xl text-custom-white">
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
           Search restaurants by parameters component
         </h1>
         <p>
@@ -355,12 +357,14 @@ export default HomePageReservationBar`}
           restaurants are returned from data base, last landing page component
           is done.
         </p>
-        <ImageBox src={img3} alt={"explore reastaurants bar"} />
+        <div className="sm:hidden">
+          <ImageBox src={img3} alt={"explore reastaurants bar"} />
+        </div>
         <p>
           On inserted valid parameters and confirmed search, user is redirected
           to a page with listed restaurants that satisfy those parameters.
         </p>
-        <h1 className="text-3xl text-custom-white mt-2">
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
           Final design and implementation
         </h1>
         <VideoBox videoFile={video1} />

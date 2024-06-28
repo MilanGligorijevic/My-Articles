@@ -10,6 +10,7 @@ function Arrow() {
       xmlns="http://www.w3.org/2000/svg"
       stroke="#faf9f6"
       stroke-width="0.00024000000000000003"
+      className="xl:hidden"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 

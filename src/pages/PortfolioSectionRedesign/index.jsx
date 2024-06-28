@@ -34,7 +34,7 @@ function PortfolioSectionRedesign() {
             text={"Source Code"}
           />
         </div>
-        <h1 className="text-3xl text-custom-white">Description</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">Description</h1>
         <p>
           Complete redesign of Projects section from my portfolio website. The
           initial design was not suitable for the rest of the website which is
@@ -43,14 +43,18 @@ function PortfolioSectionRedesign() {
           a more simple look with animations that work well with the rest of the
           design.
         </p>
-        <h1 className="text-3xl text-custom-white">Initial design</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Initial design
+        </h1>
         <ImageBox src={img1} alt="projects section initial design" />
         <p>
           It was just a simple image carousel that contained ProjectPreview
           components on each slide displaying project's name, landing page and a
           button to the website.
         </p>
-        <h1 className="text-3xl text-custom-white">Redesign idea</h1>
+        <h1 className="text-3xl text-custom-white sm:text-2xl">
+          Redesign idea
+        </h1>
         <HighlightField
           children={
             <>
@@ -89,7 +93,7 @@ function PortfolioSectionRedesign() {
           the rest of the portfolio.
         </p>
         <ImageBox src={img3} alt="projects section initial design" />
-        <h1 className="text-3xl text-custom-white mt-2">
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
           Final design and implementation
         </h1>
         <p>
@@ -110,7 +114,9 @@ function PortfolioSectionRedesign() {
           }
         />
         <VideoBox videoFile={video1} />
-        <h1 className="text-3xl text-custom-white mt-2">Component code</h1>
+        <h1 className="text-3xl text-custom-white mt-2 sm:text-2xl">
+          Component code
+        </h1>
         <CodeContainer
           code={`import React from "react";
 import "./css/style.scss";

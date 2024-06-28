@@ -14,9 +14,11 @@ function CodeContainer({ code, componentName, showMoreButton }) {
   }
 
   return (
-    <div className="mb-5 border border-custom-grey rounded-lg">
+    <div className="mb-5 border border-custom-grey rounded-lg sm:text-sm">
       <div className="border-b border-custom-grey h-11 px-5 flex justify-between items-center">
-        <h1 className="text-lg text-custom-white">{componentName}</h1>
+        <h1 className="text-lg text-custom-white sm:text-base">
+          {componentName}
+        </h1>
         <button onClick={copyToClipboard}>
           <CopyToClipboard />
         </button>

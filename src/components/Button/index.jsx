@@ -14,7 +14,7 @@ const buttonVariants = {
 function Button({ link, text }) {
   return (
     <motion.button
-      className="w-32 h-10 rounded-lg text-custom-full-black text-lg bg-custom-yellow1 opacity-95"
+      className="w-32 h-10 rounded-lg text-custom-full-black text-lg bg-custom-yellow1 opacity-95 sm:w-28 sm:h-9 sm:text-base"
       variants={buttonVariants}
       whileHover="hover"
     >

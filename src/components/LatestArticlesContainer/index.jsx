@@ -13,7 +13,7 @@ function LatestArticlesContainer() {
         <h1 className="text-3xl text-custom-white mb-6 lg:text-2xl">
           Latest Articles
         </h1>
-        <button className="hidden ms:block text-custom-white hover:underline pt-1">
+        <button className="hidden md:block text-custom-white hover:underline pt-1">
           <Link to="/exploreAllArticles">Explore all</Link>
         </button>
       </div>

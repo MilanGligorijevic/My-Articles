@@ -6,7 +6,7 @@ import Introduction from "./pages/Introduction";
 import HoverEffectRedesign from "./pages/HoverEffectRedesign";
 import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
 import DropdownMenu from "./pages/DropdownMenu";
-import LandingPageDesign from "./pages/Landing page design";
+import LandingPageDesign from "./pages/LandingPageDesign";
 import ExploreAllArticles from "./pages/ExploreAllArticles";
 
 const router = createBrowserRouter([
