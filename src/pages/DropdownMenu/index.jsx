@@ -20,7 +20,10 @@ function DropdownMenu() {
           shortDescription={"Simple and appealing dropdown menu animation"}
         />
         <div className="flex gap-5 mb-6">
-          <Button link={"izmeniti"} text={"Live Demo"} />
+          <Button
+            link={"https://main--mg-my-articles.netlify.app/"}
+            text={"Live Demo"}
+          />
           <Button
             link={
               "https://github.com/MilanGligorijevic/My-Articles/blob/main/src/assets/svg/menuButton.jsx"
