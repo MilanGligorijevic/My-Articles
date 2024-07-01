@@ -1,6 +1,6 @@
 # Technologies used
 
-HTML, REACT, TAILWIND, FRAMER MOTION
+HTML, React, Tailwind, Framer Motion
 
 # Getting Started with Create React App
 
