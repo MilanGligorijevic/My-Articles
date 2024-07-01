@@ -16,7 +16,7 @@ function ArticlePreview({ img, title, description, articleLink, tags }) {
 
   return (
     <div className="w-96 xl:w-80">
-      <div className="h-60 rounded-lg xl:h-56">
+      <div className="h-60 rounded-lg xl:h-52">
         <Link
           to={articleLink}
           onMouseOver={handleMouseOver}

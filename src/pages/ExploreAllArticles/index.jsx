@@ -5,13 +5,23 @@ import article1Video from "../../assets/video/HoverEffectRedesign4.mp4";
 import article2Video from "../../assets/video/PortfolioSectionRedesign4.mp4";
 import article3Video from "../../assets/video/DropdownMenu5.mp4";
 import article4Video from "../../assets/video/LandingPageDesign4.mp4";
+import article5Video from "../../assets/video/StaggeredTextAnimation4.mp4";
 
 function ExploreAllArticles() {
   return (
     <PageLayout>
       <div className="mb-10">
-        <h1 className="text-2xl text-custom-white">All articles</h1>
+        <h1 className="text-2xl text-custom-white mb-5">All articles</h1>
         <div className="flex flex-wrap gap-7">
+          <ArticlePreview
+            img={article5Video}
+            title={"Staggered text animation"}
+            description={
+              "If you have ever visited any of the Awwwards winning websites you must have seen this animation. It is simple yet eye pleasing which is exactly why I tried to recreate it."
+            }
+            articleLink={"/dropdownMenu"}
+            tags={["hover", "design"]}
+          />
           <ArticlePreview
             img={article3Video}
             title={"Dropdown menu"}

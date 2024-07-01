@@ -37,7 +37,22 @@ function Sidebar() {
         </Link>
         <div className="text-custom-white">
           <h1 className="text-2xl mb-1">Articles</h1>
-          <div className="pl-2 text-xl">
+          <div className="pl-2 text-lg">
+            <Link to="/staggeredTextAnimation">
+              <motion.h2
+                className={`${
+                  pathname === "/staggeredTextAnimation"
+                    ? "text-custom-yellow1"
+                    : "text-custom-white"
+                }`}
+                variants={textVariants}
+                whileHover="hover"
+              >
+                Staggered text animation
+              </motion.h2>
+            </Link>
+          </div>
+          <div className="pl-2 text-lg">
             <Link to="/hoverEffectRedesign">
               <motion.h2
                 className={`${
@@ -52,7 +67,7 @@ function Sidebar() {
               </motion.h2>
             </Link>
           </div>
-          <div className="pl-2 text-xl">
+          <div className="pl-2 text-lg">
             <Link to="/portfolioSectionRedesign">
               <motion.h2
                 className={`${
@@ -67,7 +82,7 @@ function Sidebar() {
               </motion.h2>
             </Link>
           </div>
-          <div className="pl-2 text-xl">
+          <div className="pl-2 text-lg">
             <Link to="/dropdownMenu">
               <motion.h2
                 className={`${
@@ -82,7 +97,7 @@ function Sidebar() {
               </motion.h2>
             </Link>
           </div>
-          <div className="pl-2 text-xl">
+          <div className="pl-2 text-lg">
             <Link to="/landingPageDesign">
               <motion.h2
                 className={`${

@@ -8,6 +8,7 @@ import PortfolioSectionRedesign from "./pages/PortfolioSectionRedesign";
 import DropdownMenu from "./pages/DropdownMenu";
 import LandingPageDesign from "./pages/LandingPageDesign";
 import ExploreAllArticles from "./pages/ExploreAllArticles";
+import StaggeredTextAnimation from "./pages/StaggeredTextAnimation";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/exploreAllArticles",
         element: <ExploreAllArticles />,
+      },
+      {
+        path: "/staggeredTextAnimation",
+        element: <StaggeredTextAnimation />,
       },
     ],
   },
