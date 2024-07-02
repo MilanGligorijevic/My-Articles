@@ -1,9 +1,22 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import TagBox from "../TagBox";
+import { useMediaQuery } from "react-responsive";
+import { useInView } from "framer-motion";
 
 function ArticlePreview({ img, title, description, articleLink, tags }) {
   const videoRef = useRef(null);
+  const isInView = useInView(videoRef);
+
+  const isMobile = useMediaQuery({
+    query: "(max-width: 750px)",
+  });
+
+  useEffect(() => {
+    if (isMobile) {
+      handleMouseOver();
+    }
+  }, [isInView]);
 
   const handleMouseOver = () => {
     videoRef.current.play();
