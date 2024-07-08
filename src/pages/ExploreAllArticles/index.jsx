@@ -6,6 +6,7 @@ import article2Video from "../../assets/video/PortfolioSectionRedesign4.mp4";
 import article3Video from "../../assets/video/DropdownMenu5.mp4";
 import article4Video from "../../assets/video/LandingPageDesign4.mp4";
 import article5Video from "../../assets/video/StaggeredTextAnimation4.mp4";
+import article6Video from "../../assets/video/MyArticlesAndPortfolio4.mp4";
 
 function ExploreAllArticles() {
   return (
@@ -23,13 +24,13 @@ function ExploreAllArticles() {
             tags={["hover", "design"]}
           />
           <ArticlePreview
-            img={article3Video}
-            title={"Dropdown menu"}
+            img={article1Video}
+            title={"Hover effect redesign"}
             description={
-              "I needed a dropdown menu button and animation for my Articles website. I decided to go for a simple dropdown animation with a little spin."
+              "Small redesign of one of the sections from my portfolio website. Main focus was on making UX/UI a bit better and more understandable"
             }
-            articleLink={"/dropdownMenu"}
-            tags={["click", "design"]}
+            articleLink={"/hoverEffectRedesign"}
+            tags={["hover"]}
           />
           <ArticlePreview
             img={article2Video}
@@ -41,13 +42,22 @@ function ExploreAllArticles() {
             tags={["hover", "design"]}
           />
           <ArticlePreview
-            img={article1Video}
-            title={"Hover effect redesign"}
+            img={article3Video}
+            title={"Dropdown menu"}
             description={
-              "Small redesign of one of the sections from my portfolio website. Main focus was on making UX/UI a bit better and more understandable"
+              "I needed a dropdown menu button and animation for my Articles website. I decided to go for a simple dropdown animation with a little spin."
             }
-            articleLink={"/hoverEffectRedesign"}
-            tags={["hover"]}
+            articleLink={"/dropdownMenu"}
+            tags={["click", "design"]}
+          />
+          <ArticlePreview
+            img={article6Video}
+            title={"My Articles and Portfolio"}
+            description={
+              "I had to link My Articles and Portfolio website. The idea was to make it stand out and catch eye of the user while scrolling through the portfolio."
+            }
+            articleLink={"/addingMyArticlesToPortfolio"}
+            tags={["hover", "design"]}
           />
           <ArticlePreview
             img={article4Video}

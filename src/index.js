@@ -9,6 +9,7 @@ import DropdownMenu from "./pages/DropdownMenu";
 import LandingPageDesign from "./pages/LandingPageDesign";
 import ExploreAllArticles from "./pages/ExploreAllArticles";
 import StaggeredTextAnimation from "./pages/StaggeredTextAnimation";
+import AddingMyArticlesToPortfolio from "./pages/AddingMyArticlesToPortfolio";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/staggeredTextAnimation",
         element: <StaggeredTextAnimation />,
+      },
+      {
+        path: "/addingMyArticlesToPortfolio",
+        element: <AddingMyArticlesToPortfolio />,
       },
     ],
   },

@@ -98,6 +98,21 @@ function Sidebar() {
             </Link>
           </div>
           <div className="pl-2 text-lg">
+            <Link to="/addingMyArticlesToPortfolio">
+              <motion.h2
+                className={`${
+                  pathname === "/addingMyArticlesToPortfolio"
+                    ? "text-custom-yellow1"
+                    : "text-custom-white"
+                }`}
+                variants={textVariants}
+                whileHover="hover"
+              >
+                My Articles and Portfolio
+              </motion.h2>
+            </Link>
+          </div>
+          <div className="pl-2 text-lg">
             <Link to="/landingPageDesign">
               <motion.h2
                 className={`${
